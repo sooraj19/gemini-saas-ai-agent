@@ -58,3 +58,10 @@ This is an attempt to implement that vision or idea based on my interpretation o
 
 ## Credits
 The AI-based Python code generation and execution logic has been adapted from a similar implementation for ChatGPT by [RodgerE1](https://gist.github.com/RodgerE1/9339c6ea0c851e48d41b852b80834d98).
+
+## Contact
+
+For further details, feel free to contact me at:
+
+* Email: soorajshajahan@ymail.com
+* LinkedIn: [Link to LinkedIn Profile](https://www.linkedin.com/in/soorajshajahan/)
