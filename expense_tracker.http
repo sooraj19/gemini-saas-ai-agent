@@ -1,0 +1,21 @@
+GET http://127.0.0.1:8000
+
+POST http://127.0.0.1:8000/incomes
+
+{
+  "username": "user123",
+  "expenses": [
+    {
+        "income": "salary",
+        "amount": 10000
+    },
+    {
+        "income": "stocks",
+        "amount": 500
+    },
+    {
+        "income": "rental",
+        "amount": 2000
+    }
+  ]
+}
