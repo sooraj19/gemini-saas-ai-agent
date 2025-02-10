@@ -7,12 +7,12 @@ from tracker_gemini_ai import execute_gemini_prompt, generate_and_execute_code
 from pydantic.json import pydantic_encoder
 from fastapi import Response
 
-class Expense(BaseModel):
+class Entry(BaseModel):
     income: str
     amount: int
 class Income(BaseModel):
     username: str
-    expenses: List[Expense]
+    entries: List[Entry]
 
 
 app = FastAPI()
