@@ -4,7 +4,7 @@ POST http://127.0.0.1:8000/incomes
 
 {
   "username": "user123",
-  "expenses": [
+  "entries": [
     {
         "income": "salary",
         "amount": 10000
@@ -19,3 +19,6 @@ POST http://127.0.0.1:8000/incomes
     }
   ]
 }
+
+
+GET http://127.0.0.1:8000/income/user123
