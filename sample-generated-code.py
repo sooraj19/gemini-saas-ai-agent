@@ -2,7 +2,7 @@ import json
 import pymongo
 
 # JSON data to be inserted
-data = {"username": "user123", "expenses": [{"income": "salary", "amount": 10000}, {"income": "stocks", "amount": 500}, {"income": "rental", "amount": 2000}]}
+data = {"username": "user123", "entries": [{"income": "salary", "amount": 10000}, {"income": "stocks", "amount": 500}, {"income": "rental", "amount": 2000}]}
 
 # MongoDB connection string
 connection_string = "mongodb://localhost:27017/"
