@@ -9,7 +9,7 @@ has the schema "
     "username": {
       "type": "string"
     },
-    "expenses": {
+    "entries": {
       "type": "array",
       "items": {
         "type": "object",
@@ -30,7 +30,7 @@ has the schema "
   },
   "required": [
     "username",
-    "expenses"
+    "entries"
   ]
 }
 "
